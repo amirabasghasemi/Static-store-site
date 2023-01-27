@@ -1,0 +1,526 @@
+@font-face {
+  font-family: yekan;
+  src: url('../page-main/font/Yekan.eot') format('eot');
+  src: url('../page-main/font/Yekan.svg') format('svg'),
+    url('../page-main/font/Yekan.ttf') format('ttf'),
+    url('../page-main/font/Yekan.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: yekan;
+}
+
+.header {
+  background-color: #fdf7f3;
+}
+
+.header-box {
+  height: 73px;
+  border-radius: 100px;
+  background-color: white;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 12px;
+}
+
+.header-box-2 {
+  width: 90%;
+  height: 50px;
+  background-color: #e7a98d;
+  border-bottom-right-radius: 41px;
+  border-bottom-left-radius: 41px;
+}
+
+.icon-header-box {
+  font-size: 19px;
+}
+
+.icon-header-box:hover {
+  color: rgb(55, 55, 55);
+}
+
+.text-header-box-1 {
+  font-size: 12px;
+  font-weight: 400;
+
+}
+
+.text-header-box-1:hover {
+  background-color: #fef8f4 !important;
+}
+
+.page {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: yekan;
+}
+
+.search-box {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.input-search {
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #e7a98d;
+  padding-left: 40px;
+  color: black;
+}
+
+.input-search::placeholder {
+  color: #e7a98d;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-search {
+  top: 1px;
+  margin-right: 8px;
+  padding: 8px;
+  width: 20px;
+  height: 20px;
+  border-style: none;
+  font-size: 22px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color: white;
+  background-color: transparent;
+  pointer-events: painted;
+}
+
+.btn-search:focus~.input-search {
+  width: 200px;
+  color: #e7a98d;
+  margin-right: 25px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 2px solid #e7a98d;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus {
+  text-align: center;
+  width: 200px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 2px solid #e7a98d;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.btn-search:focus {
+  color: #e7a98d;
+}
+
+.btn-white {
+  border: none;
+  background-color: white;
+}
+
+.btn-white:hover {
+  color: rgb(82, 82, 82);
+  border: none;
+  background-color: white;
+}
+
+.nav-link-header-box-2:hover {
+  background-color: #e7a98d !important;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  border-radius: 15px;
+  text-align: right;
+  display: none;
+  position: absolute;
+  background-color: white;
+  margin-top: 40px;
+  z-index: 10;
+}
+
+.dropdown-content1 {
+  border-radius: 15px;
+  display: none;
+  z-index: 10;
+  position: absolute;
+  background-color: white;
+  margin-top: 40px;
+  width: 400px;
+  height: auto;
+}
+
+.dropdown-content a {
+  width: 150px;
+  border-radius: 15px;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: white !important;
+  color: #e7a98d !important;
+}
+
+.btn-list {
+  border: 2px solid #e7a98d;
+  background-color: #e7a98d;
+  color: white;
+}
+
+.btn-list:hover {
+  border: 2px solid #555;
+  background-color: #555;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+
+.btn-sidebar {
+  border: none;
+  background-color: #e7a98d;
+}
+
+.btn-sidebar:hover {
+  background-color: #6c757d;
+}
+
+.btnmodal:focus {
+  border: 0px;
+}
+
+.input-modal {
+  border-bottom: 4px solid #e7a98d !important;
+}
+
+.input-modal:focus {
+  outline: none;
+}
+
+/*modal css code start............*/
+.foter-modal {
+  align-items: center;
+  display: flex;
+  font-family: yekan;
+  font-weight: 600;
+  font-size: 26px;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+.container-modal {
+  align-items: center;
+  background: #e7a98d;
+  border-radius: 40px;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  transition: opacity 300ms;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+.fingerprint {
+  height: 80px;
+  opacity: 0;
+  position: absolute;
+  stroke: rgb(0, 0, 0);
+  transition: opacity 1ms;
+}
+
+.fingerprint-active {
+  stroke: #fff;
+}
+
+.fingerprint-out {
+  opacity: 1;
+}
+
+.odd {
+  stroke-dasharray: 0px 50px;
+  stroke-dashoffset: 1px;
+  transition: stroke-dasharray 1ms;
+}
+
+.even {
+  stroke-dasharray: 50px 50px;
+  stroke-dashoffset: -41px;
+  transition: stroke-dashoffset 1ms;
+}
+
+.ok {
+  opacity: 0;
+}
+
+.active.container {
+  animation: 6s Container;
+}
+
+.active .text {
+  opacity: 0;
+  animation: 6s Text forwards;
+}
+
+.active .fingerprint {
+  opacity: 1;
+  transition: opacity 300ms 200ms;
+}
+
+.active .fingerprint-base .odd {
+  stroke-dasharray: 50px 50px;
+  transition: stroke-dasharray 800ms 100ms;
+}
+
+.active .fingerprint-base .even {
+  stroke-dashoffset: 0px;
+  transition: stroke-dashoffset 800ms;
+}
+
+.active .fingerprint-active .odd {
+  stroke-dasharray: 50px 50px;
+  transition: stroke-dasharray 2000ms 1500ms;
+}
+
+.active .fingerprint-active .even {
+  stroke-dashoffset: 0px;
+  transition: stroke-dashoffset 2000ms 1300ms;
+}
+
+.active .fingerprint-out {
+  opacity: 0;
+  transition: opacity 300ms 4100ms;
+}
+
+.active .ok {
+  opacity: 1;
+  animation: 6s Ok forwards;
+}
+
+@keyframes Container {
+  0% {
+    width: 200px
+  }
+
+  6% {
+    width: 80px
+  }
+
+  71% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(1.2);
+  }
+
+  77% {
+    transform: scale(1);
+  }
+
+  94% {
+    width: 80px
+  }
+
+  100% {
+    width: 200px
+  }
+}
+
+@keyframes Text {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  6% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  94% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes Ok {
+  0% {
+    opacity: 0
+  }
+
+  70% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  75% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  77% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  92% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  96% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+.btn-modal {
+  background-color: #e7a98d;
+  width: 50%;
+  height: 50px;
+}
+/*modal css code end.........*/
+
+/*code css main..........*/
+.btn-blog{
+  background-color: #e7a98d;
+  color: white;
+  height:fit-content;
+  width: auto;
+  font-size: small;
+  z-index: 10;
+}
+.btn-blog:hover{
+  background-color: #e7a98d;
+  color: white;
+  z-index: 10;
+}
+.btn-blog-card{
+  color: #e7a98d;
+}
+.icon-blog{
+font-size: 20px;
+}
+
+
+.img-blog:hover{
+  transform: scale(3);
+}
+.shadow-accordion {
+  /* Required properties */
+  position: relative;
+  background: white;
+
+  /* Use  your own styles here */
+}
+
+      
+.shadow-accordion:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-45deg, #ffeda0 51%, #ffa585 100% );
+  transform: translate3d(2px, 7px, 0) scale(0.97);
+  filter: blur(35px);
+  opacity: var(0.7);
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+
+/* 
+* Prevents issues when the parent creates a 
+* stacking context. (For example, using the transform
+* property )
+*/
+.shadow-accordion::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
+.icon-footer{
+  background-color: #e7a98d;
+  font-size: 25px;
+  cursor: pointer;
+}
+.icon-footer:hover{
+  background-color: #f1b396;
+}
+.img-footer{
+  width: 138px;
+  height: 112px;
+}
+.accordion-button:focus{
+  background-color: white;   
+}
+.link-sidebar-header{
+  width: auto;
+  height: 50px;
+  text-decoration: none;
+}
+.cover-blog:hover{
+background-color: rgba(85, 85, 85, 0.505);
+z-index: 9;
+transition: 0.5s;
+}

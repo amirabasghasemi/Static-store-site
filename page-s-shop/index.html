@@ -1,0 +1,474 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+  <section>
+    <header class="dis-lg ">
+      <nav class="navbar navbar-expand-lg navbar-dark shadow header-box-0" aria-label="Offcanvas navbar large">
+        <div class="container-fluid p-2">
+          <div class="col-4">
+            <button class="navbar-toggler text-dark" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2"><i
+                class="	fa fa-bars icon-header-box text-dark" data-toggle="tooltip" data-placement="top"
+                title="سبدخرید"></i>
+              منو
+            </button>
+          </div>
+          <div class="col-4"><img src="./image/wood-logo-dark.svg" style="width: 100%;" alt="" srcset=""></div>
+          <div class="col-4 d-flex justify-content-end">
+            <button class="navbar-toggler nav-link text-dark" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark"><i
+                class="fa fa-shopping-basket icon-header-box text-dark" data-toggle="tooltip" data-placement="top"
+                title="سبدخرید"></i>
+
+            </button>
+          </div>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header shadow-sm">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <div class="page">
+              <div class="body">
+                <div class="search-box">
+                  <button class="btn-search"><i class="fa fa-search" data-toggle="tooltip" data-placement="top"
+                      title="جستجوی کالاها"></i></button>
+                  <input type="text" class=" input-search" placeholder="جستجوی کالا">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offcanvas-body p-0">
+            <div class="col-12 border-bottom p-3"><a class="link-dark link-sidebar-header" href="http://"><i
+                  class="fa fa-heart-o"></i> علاقه مندی ها</a></div>
+            <div class="col-12 border-bottom p-3"><a class="link-dark link-sidebar-header" href="http://"><i
+                  class="fa fa-random"></i> مقایسه محصولات</a></div>
+            <div class="col-12 border-bottom p-3"><a class="link-dark link-sidebar-header" href="http://"><i
+                  class="fa fa-user-circle-o"></i> ورود/ثبت نام</a></div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="offcanvas offcanvas-start bg-white" tabindex="-1" id="offcanvasNavbarDark"
+      aria-labelledby="offcanvasNavbarDarkLabel">
+      <div class="offcanvas-header border-bottom">
+        <button type="button" class="border-0 bg-white" data-bs-dismiss="offcanvas" aria-label="Close">
+          <i class="fa fa-close"></i> بستن
+        </button>
+        <h4>سبدخرید</h4>
+      </div>
+      <div class="offcanvas-body">
+        <div class="sidbar-box-1 d-flex justify-content-center flex-wrap">
+          <i class="fa fa-shopping-bag fa-5x text-secondary mt-3"></i>
+          <h6 class="col-12 text-center mt-3">هیچ محصولی درسبدخریدموجودنمی باشد.</h6>
+          <button class="btn-sidebar p-2 rounded-3 mt-3 text-white" data-bs-dismiss="offcanvas"
+            aria-label="Close">بازگشت به صفحه اصلی</button>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="container-fluid header">
+        <div class="p-5  responsive-m">
+          <div class="row">
+            <div class="col-lg-6  responsive-m">
+              <div class="d-flex p-4">
+                <a href="http://"><i class="p-2 fa-2x fa fa-facebook link-secondary" aria-current="page"></i></a>
+                <a href="http://"><i class="p-2 fa-2x fa fa-twitter link-secondary" aria-current="page"></i></a>
+                <a href="http://"><i class="p-2 fa-2x fa fa-instagram link-secondary" aria-current="page"></i></a>
+                <a href="http://"><i class="p-2 fa-2x fa fa-youtube-play link-secondary" aria-current="page"></i></a>
+                <a href="http://"><i class="p-2 fa-2x fa fa-youtube link-secondary" aria-current="page"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-6 p-lg-4 responsive-m">
+              <div class="d-flex justify-content-end">
+                <ul class="nav">
+                  <li><a class="nav-link text-dark border-start text-header-box-1" href="../page-main/index.html">فروشگاه</a></li>
+                  <li><a class="nav-link text-dark border-start text-header-box-1" href="../page-blog/index.html">بلاگ</a>
+                  </li>
+                  <li><a class="nav-link text-dark border-start text-header-box-1" href="http://">برندها</a></li>
+                  <li><a class="nav-link text-dark text-header-box-1" href="http://">مطالب کاربران</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row header-box  responsive-m">
+            <div class="col-lg-5  responsive-m">
+              <ul class="nav">
+                <li><a class="btn bg-white text-dark nav-link rounded-0 btnmodal border-start" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" href="http://"><i class="icon-header-box text-dark fa fa-user-o"></i>
+                    ورود/ثبت
+                    نام</a>
+                </li>
+                <li><a class="bg-white text-dark nav-link" href="http://">021-770023</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 d-flex justify-content-center">
+              <img src="./image/logo-cosmetic.png" class=" responsive-m" alt="" srcset="">
+            </div>
+            <div class=" col-lg-5 d-flex justify-content-end  responsive-m">
+              <ul class="nav mt-2  responsive-m">
+                <li class="">
+                  <div class="page">
+                    <div class="body">
+                      <div class="search-box">
+                        <button class="btn-search"><i class="fa fa-search" data-toggle="tooltip" data-placement="top"
+                            title="جستجوی کالاها"></i></button>
+                        <input type="text" class=" input-search" placeholder="جستجوی کالا">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown d-flex justify-content-end"><a
+                    class="text-black bg-white icon-header-box border-start nav-link" data-toggle="tooltip"
+                    data-placement="top" title="لیست علاقه مندی ها" href="http://"><i class="fa fa-heart-o"></i></a>
+                  <div class="shadow-sm dropdown-content1 rounded p-1">
+                    <div class="body d-flex justify-content-center p-3">
+                      <div class="content-1 text-center">
+                        <i class=" text-secondary fa fa-shopping-bag fa-5x"></i>
+                        <h6 class="text-center mt-3">هیچ محصولی درلیست موجودنمی باشد.</h6>
+                      </div>
+                    </div>
+                    <div class="foter border-top d-flex justify-content-center p-3">
+                      <button class="btn btn-list rounded">ورود وثبت سفارش</button>
+                    </div>
+                  </div>
+                </li>
+                <li><a class="text-black bg-white icon-header-box border-start nav-link" data-toggle="tooltip"
+                    data-placement="top" title="مقایسه محصولات" href="http://"><i class="fa fa-random"></i></a></li>
+                <li class="mt-2 ms-5 me-3">
+                  <a class="navbar-toggler nav-link bg-white text-dark" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark"><i
+                      class="fa fa-shopping-basket icon-header-box" data-toggle="tooltip" data-placement="top"
+                      title="سبدخرید"></i>
+                    0 تومان
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="header-box-2  responsive-m">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="nav mt-1">
+                    <li><a class="nav-link text-white nav-link-header-box-2" href="../page-main/index.html">صفحه
+                        اصلی</a>
+                    </li>
+                    <li class="dropdown d-flex justify-content-center"><a
+                        class="nav-link text-white nav-link-header-box-2" href="">فروشگاه<i
+                          class="fa fa-angle-down"></i></a>
+
+                      <div class="shadow-sm dropdown-content p-2 rounded-5">
+                        <a class="text-secondary rounded-5" href="../page-s-shop/">سبدخرید</a>
+                        <a class="text-secondary" href="../page-user/index.html">حساب کاربری</a>
+                        <a class="text-secondary rounded-5" href="http://">پرداخت</a>
+                      </div>
+                    </li>
+                    <li><a class="nav-link text-white nav-link-header-box-2" href="../page-user/index.html">حساب
+                        کاربری</a></li>
+                    <li><a class="nav-link text-white nav-link-header-box-2" href="../page-blog/index.html">بلاگ</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end">
+                  <ul class="nav mt-1 ms-4">
+                    <li class="dropdown d-flex justify-content-center"><a
+                        class="nav-link text-white nav-link-header-box-2" href="http://">
+                        زنانه<i class="fa fa-angle-down"></i></a>
+                      <div class="shadow-sm dropdown-content rounded-5">
+                        <ul class="nav d-flex flex-nowrap">
+                          <li class="nav-link"><a class="h5" href="http://"><i class="fa fa-angle-left"></i> مجلسی</a>
+                            <a class="text-secondary" href="http://">زیرمنوی مگامنو</a>
+                            <a class="text-secondary" href="http://">زیرمنوی مگامنو</a>
+                            <a class="text-secondary" href="http://">زیرمنوی مگامنو</a>
+                          </li>
+                          <li class="nav-link"><a class="h5" href="http://"><i class="fa fa-angle-left"></i> لباس
+                              زیر</a>
+                            <a class="text-secondary" href="http://">زیرمنوی مگامنو</a>
+                            <a class="text-secondary" href="http://">زیرمنوی مگامنو</a>
+                            <a class="text-secondary" href="http://">زیرمنوی مگامنو</a>
+                          </li>
+                          <li class="nav-link"><a class="h5" href="http://"><i class="fa fa-angle-left"></i> اکسسوری</a>
+                            <a class="text-secondary" href="http://">زیرمنوی مگامنو</a>
+                            <a class="text-secondary" href="http://">زیرمنوی مگامنو</a>
+                            <a class="text-secondary" href="http://"></a>
+                          </li>
+                          <li class="nav-link"><a class="h5" href="http://"><i class="fa fa-angle-left"></i> کیف
+                              وکفش</a>
+                            <a class="text-secondary" href="http://">زیرمنوی مگامنو</a>
+                            <a class="text-secondary" href="http://"></a>
+                            <a class="text-secondary" href="http://"></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li><a class="nav-link text-white nav-link-header-box-2" href="http://">مردانه</a>
+                    </li>
+                    <li><a class="nav-link text-white nav-link-header-box-2" href="http://">
+                        جواهرات</a></li>
+                    <li><a class="nav-link text-white nav-link-header-box-2" href="http://">اکسسوری</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </header>
+  </section>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header d-flex justify-content-center rounded-5">
+
+          <button type="button" class=" border-0 bg-white text-secondary" data-bs-dismiss="modal" aria-label="Close"><i
+              class="fa fa-close"></i> بستن</button>
+
+        </div>
+        <div class="modal-body d-flex flex-wrap p-3">
+          <p class="p-2">آدرس ایمیل:</p>
+          <input class=" border-bottom input-modal border-0 col-12 rounded-5 p-2" type="email" placeholder="ایمیل">
+          <p class="p-2">رمزعبور:</p>
+          <input class=" border-bottom input-modal border-0 col-12 rounded-5 p-2" type="password" placeholder="رمزعبور">
+        </div>
+        <div class="modal-footer border-0 d-flex justify-content-center">
+          <div class=".foter-modal col-12 d-flex justify-content-center">
+            <div class="container-modal" onclick="this.classList.toggle('active')">
+              <span class="text">ثبت نام</span>
+              <svg class="fingerprint fingerprint-base" xmlns="http://www.w3.org/2000/svg" width="100" height="100"
+                viewBox="0 0 100 100">
+                <g class="fingerprint-out" fill="none" stroke-width="2" stroke-linecap="round">
+                  <path class="odd"
+                    d="m 25.117139,57.142857 c 0,0 -1.968558,-7.660465 -0.643619,-13.149003 1.324939,-5.488538 4.659682,-8.994751 4.659682,-8.994751" />
+                  <path class="odd"
+                    d="m 31.925369,31.477584 c 0,0 2.153609,-2.934998 9.074971,-5.105078 6.921362,-2.17008 11.799844,-0.618718 11.799844,-0.618718" />
+                  <path class="odd"
+                    d="m 57.131213,26.814448 c 0,0 5.127709,1.731228 9.899495,7.513009 4.771786,5.781781 4.772971,12.109204 4.772971,12.109204" />
+                  <path class="odd" d="m 72.334009,50.76769 0.09597,2.298098 -0.09597,2.386485" />
+                  <path class="even"
+                    d="m 27.849282,62.75 c 0,0 1.286086,-1.279223 1.25,-4.25 -0.03609,-2.970777 -1.606117,-7.675266 -0.625,-12.75 0.981117,-5.074734 4.5,-9.5 4.5,-9.5" />
+                  <path class="even"
+                    d="m 36.224282,33.625 c 0,0 8.821171,-7.174484 19.3125,-2.8125 10.491329,4.361984 11.870558,14.952665 11.870558,14.952665" />
+                  <path class="even"
+                    d="m 68.349282,49.75 c 0,0 0.500124,3.82939 0.5625,5.8125 0.06238,1.98311 -0.1875,5.9375 -0.1875,5.9375" />
+                  <path class="odd"
+                    d="m 31.099282,65.625 c 0,0 1.764703,-4.224042 2,-7.375 0.235297,-3.150958 -1.943873,-9.276886 0.426777,-15.441942 2.370649,-6.165056 8.073223,-7.933058 8.073223,-7.933058" />
+                  <path class="odd"
+                    d="m 45.849282,33.625 c 0,0 12.805566,-1.968622 17,9.9375 4.194434,11.906122 1.125,24.0625 1.125,24.0625" />
+                  <path class="even"
+                    d="m 59.099282,70.25 c 0,0 0.870577,-2.956221 1.1875,-4.5625 0.316923,-1.606279 0.5625,-5.0625 0.5625,-5.0625" />
+                  <path class="even"
+                    d="m 60.901059,56.286612 c 0,0 0.903689,-9.415996 -3.801777,-14.849112 -3.03125,-3.5 -7.329245,-4.723939 -11.867187,-3.8125 -5.523438,1.109375 -7.570313,5.75 -7.570313,5.75" />
+                  <path class="even"
+                    d="m 34.072577,68.846248 c 0,0 2.274231,-4.165782 2.839205,-9.033748 0.443558,-3.821814 -0.49394,-5.649939 -0.714206,-8.05386 -0.220265,-2.403922 0.21421,-4.63364 0.21421,-4.63364" />
+                  <path class="odd"
+                    d="m 37.774165,70.831845 c 0,0 2.692139,-6.147592 3.223034,-11.251208 0.530895,-5.103616 -2.18372,-7.95562 -0.153491,-13.647655 2.030229,-5.692035 8.108442,-4.538898 8.108442,-4.538898" />
+                  <path class="odd"
+                    d="m 54.391174,71.715729 c 0,0 2.359472,-5.427681 2.519068,-16.175068 0.159595,-10.747388 -4.375223,-12.993087 -4.375223,-12.993087" />
+                  <path class="even"
+                    d="m 49.474282,73.625 c 0,0 3.730297,-8.451831 3.577665,-16.493718 -0.152632,-8.041887 -0.364805,-11.869326 -4.765165,-11.756282 -4.400364,0.113044 -3.875,4.875 -3.875,4.875" />
+                  <path class="even"
+                    d="m 41.132922,72.334447 c 0,0 2.49775,-5.267079 3.181981,-8.883029 0.68423,-3.61595 0.353553,-9.413359 0.353553,-9.413359" />
+                  <path class="odd"
+                    d="m 45.161782,73.75 c 0,0 1.534894,-3.679847 2.40625,-6.53125 0.871356,-2.851403 1.28125,-7.15625 1.28125,-7.15625" />
+                  <path class="odd"
+                    d="m 48.801947,56.125 c 0,0 0.234502,-1.809418 0.109835,-3.375 -0.124667,-1.565582 -0.5625,-3.1875 -0.5625,-3.1875" />
+                </g>
+              </svg>
+              <svg class="fingerprint fingerprint-active" xmlns="http://www.w3.org/2000/svg" width="100" height="100"
+                viewBox="0 0 100 100">
+                <g class="fingerprint-out" fill="none" stroke-width="2" stroke-linecap="round">
+                  <path class="odd"
+                    d="m 25.117139,57.142857 c 0,0 -1.968558,-7.660465 -0.643619,-13.149003 1.324939,-5.488538 4.659682,-8.994751 4.659682,-8.994751" />
+                  <path class="odd"
+                    d="m 31.925369,31.477584 c 0,0 2.153609,-2.934998 9.074971,-5.105078 6.921362,-2.17008 11.799844,-0.618718 11.799844,-0.618718" />
+                  <path class="odd"
+                    d="m 57.131213,26.814448 c 0,0 5.127709,1.731228 9.899495,7.513009 4.771786,5.781781 4.772971,12.109204 4.772971,12.109204" />
+                  <path class="odd" d="m 72.334009,50.76769 0.09597,2.298098 -0.09597,2.386485" />
+                  <path class="even"
+                    d="m 27.849282,62.75 c 0,0 1.286086,-1.279223 1.25,-4.25 -0.03609,-2.970777 -1.606117,-7.675266 -0.625,-12.75 0.981117,-5.074734 4.5,-9.5 4.5,-9.5" />
+                  <path class="even"
+                    d="m 36.224282,33.625 c 0,0 8.821171,-7.174484 19.3125,-2.8125 10.491329,4.361984 11.870558,14.952665 11.870558,14.952665" />
+                  <path class="even"
+                    d="m 68.349282,49.75 c 0,0 0.500124,3.82939 0.5625,5.8125 0.06238,1.98311 -0.1875,5.9375 -0.1875,5.9375" />
+                  <path class="odd"
+                    d="m 31.099282,65.625 c 0,0 1.764703,-4.224042 2,-7.375 0.235297,-3.150958 -1.943873,-9.276886 0.426777,-15.441942 2.370649,-6.165056 8.073223,-7.933058 8.073223,-7.933058" />
+                  <path class="odd"
+                    d="m 45.849282,33.625 c 0,0 12.805566,-1.968622 17,9.9375 4.194434,11.906122 1.125,24.0625 1.125,24.0625" />
+                  <path class="even"
+                    d="m 59.099282,70.25 c 0,0 0.870577,-2.956221 1.1875,-4.5625 0.316923,-1.606279 0.5625,-5.0625 0.5625,-5.0625" />
+                  <path class="even"
+                    d="m 60.901059,56.286612 c 0,0 0.903689,-9.415996 -3.801777,-14.849112 -3.03125,-3.5 -7.329245,-4.723939 -11.867187,-3.8125 -5.523438,1.109375 -7.570313,5.75 -7.570313,5.75" />
+                  <path class="even"
+                    d="m 34.072577,68.846248 c 0,0 2.274231,-4.165782 2.839205,-9.033748 0.443558,-3.821814 -0.49394,-5.649939 -0.714206,-8.05386 -0.220265,-2.403922 0.21421,-4.63364 0.21421,-4.63364" />
+                  <path class="odd"
+                    d="m 37.774165,70.831845 c 0,0 2.692139,-6.147592 3.223034,-11.251208 0.530895,-5.103616 -2.18372,-7.95562 -0.153491,-13.647655 2.030229,-5.692035 8.108442,-4.538898 8.108442,-4.538898" />
+                  <path class="odd"
+                    d="m 54.391174,71.715729 c 0,0 2.359472,-5.427681 2.519068,-16.175068 0.159595,-10.747388 -4.375223,-12.993087 -4.375223,-12.993087" />
+                  <path class="even"
+                    d="m 49.474282,73.625 c 0,0 3.730297,-8.451831 3.577665,-16.493718 -0.152632,-8.041887 -0.364805,-11.869326 -4.765165,-11.756282 -4.400364,0.113044 -3.875,4.875 -3.875,4.875" />
+                  <path class="even"
+                    d="m 41.132922,72.334447 c 0,0 2.49775,-5.267079 3.181981,-8.883029 0.68423,-3.61595 0.353553,-9.413359 0.353553,-9.413359" />
+                  <path class="odd"
+                    d="m 45.161782,73.75 c 0,0 1.534894,-3.679847 2.40625,-6.53125 0.871356,-2.851403 1.28125,-7.15625 1.28125,-7.15625" />
+                  <path class="odd"
+                    d="m 48.801947,56.125 c 0,0 0.234502,-1.809418 0.109835,-3.375 -0.124667,-1.565582 -0.5625,-3.1875 -0.5625,-3.1875" />
+                </g>
+              </svg>
+              <svg class="ok" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                <path d="M34.912 50.75l10.89 10.125L67 36.75" fill="none" stroke="#fff" stroke-width="6" />
+              </svg>
+            </div>
+          </div>
+          <button class="border-0 btn-modal rounded-5 text-white">ورود</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal-->
+  <!--main-->
+  <div class="container-fluid">
+    <div class="row p-5">
+      <div class="col-lg-8">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col">
+                <p>محصول</p>
+              </th>
+              <th scope="col">
+                <p>قیمت</p>
+              </th>
+              <th scope="col">
+                <p>تعداد</p>
+              </th>
+              <th scope="col" class="text-start">
+                <p>جمع جزء</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="demo-0">
+              <th scope="row" class="p-2"><button class="btn-close mt-4" onclick="demofunction()"></button></th>
+              <td><a href="http://#"><img src="./image/samppo-600x600.png" class="img-shop" alt="" srcset=""></a></td>
+              <td>
+                <p class="mt-4">
+                <p>گلدان آپارتمانی تیلادنسیا</p>
+              </td>
+              <td>
+                <p class="mt-4 text-secondary">159,000 تومان</p>
+              </td>
+              <td>
+                <p class="mt-4">
+              </td>
+              <td>
+                <p class="mt-4 h5 number-shop text-start"> 636,000 تومان
+              </td>
+            </tr>
+            <tr id="demo">
+              <th scope="row" class="p-2"><button class="btn-close mt-4" onclick="myfunction()"></button"></th>
+              <td><a href="http://#"><img src="./image/img-6-1-1-600x600.png" class="img-shop" alt="" srcset=""></a>
+              </td>
+              <td>
+                <p class="mt-4">
+                <p>گلدان آپارتمانی فیکوس الاستیکا بلک</p>
+              </td>
+              <td>
+                <p class="mt-4 text-secondary">2,900,000 تومان
+              </td>
+              <td>
+                <p class="mt-4"></p>
+              </td>
+              <td>
+                <p class="mt-4 h5 number-shop text-start"> 2,900,000 تومان
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="content p-4">
+          <h3 class="fw-bold">جمع کل سبدخرید</h3>
+          <div class="d-flex justify-content-between mt-4">
+            <p>جمع جزء</p>
+            <p class="text-secondary">3,536,000 تومان</p>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <p class="h4">مجموع کل</p>
+            <p class="h4 number-shop">3,536,000 تومان</p>
+          </div>
+          <button class="w-100 mt-3 p-2 rounded-2 btn-shop border-0">ادامه جهت تسویه حساب</button>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap mt-3  justify-content-between col-lg-8">
+        <div>
+          <input class="rounded-2 input-shope p-2" type="text" placeholder="کدتخفیف">
+          <button class="btn btn-shop p-3 me-2">اعمال کدتخفیف</button>
+        </div>
+        <div>
+          <div class="btn border-0 bg-light p-3">بروز رسانی سبدخرید</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--/main-->
+  <!--footer-->
+  <div class="container foter">
+    <div class="row d-flex flex-wrap p-5">
+      <div class="col-12">
+        <img src="./image/logo-cosmetic.png" class="img-footer" alt="" srcset="">
+      </div>
+      <div class="col-12">
+        <p class="h6 text-secondary p-2">تازه‌ترین و زیباترین گل‌ها و گیاهان، لبخند را روی لب‌های عزیزانتون بیارید.</br>
+          ما تلاش می کنیم تا شما بدون نیاز به وقت گذاشتن و بیرون اومدن توی ترافیک شهری و از هرکجای این کره خاکی بتونید
+          تازه‌ترین گل‌ها را در شهر تهران هدیه دهیدو یا در</br> محل خودتون تحویل بگیرید.</p>
+      </div>
+      <div class="col-lg-6 mt-4">
+        <div class="d-flex flex-wrap">
+          <div class="col-12 d-flex flex-nowrap">
+            <p class="h5">تلفن: ۲7۴۲۷۷۵۰-۰۲۱ </p>
+            <p class="me-5 h5"> پشتیبانی تلگرام: sabzineh_supp@</p>
+          </div>
+          <div class="col-12 mt-4">
+            <i class="fa fa-twitter icon-footer text-white p-2 rounded-5"></i>
+            <i class="fa fa-telegram icon-footer text-white p-2 rounded-5"></i>
+            <i class="fa fa-instagram icon-footer text-white p-2 rounded-5"></i>
+          </div>
+        </div>
+        <div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex justify-content-end mt-4">
+        <img src="./image/footer-samandehi.png" alt="" srcset="">
+        <img src="./image/enamad-1.png" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+  <!--/footer-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
